@@ -98,19 +98,19 @@ class OverworldMap {
 
 window.OverworldMaps = {
     DemoRoom: {
-        lowerSrc: "/images/maps/DemoLower.png",
-        upperSrc: "/images/maps/DemoUpper.png",
+        lowerSrc: "https://BradleyGonmiah.github.io/TMBG-RPG/images/maps/DemoLower.png",
+        upperSrc: "https://BradleyGonmiah.github.io/TMBG-RPG/images/maps/DemoUpper.png",
         gameObjects: {
             hero: new Person({
                 isPlayerControlled: true,
                 x: utils.withGrid(5),
                 y: utils.withGrid(6),
-                src:"/images/characters/people/bradley.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/bradley.png",
             }),
             npcA: new Person({
                 x: utils.withGrid(7),
                 y: utils.withGrid(9),
-                src:"/images/characters/people/tsion.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/tsion.png",
                 behaviorLoop: [
                     { type: "stand", direction: "left", time: 800 },
                     { type: "stand", direction: "up", time: 800 },
@@ -130,7 +130,7 @@ window.OverworldMaps = {
             npcB: new Person({
                 x: utils.withGrid(8),
                 y: utils.withGrid(5),
-                src:"/images/characters/people/npc2.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/npc2.png",
                 //behaviorLoop: [
                 //    { type: "walk", direction: "left" },
                 //    { type: "stand", direction: "up", time: 800 },
@@ -173,8 +173,8 @@ window.OverworldMaps = {
     },
 
     Kitchen: {
-        lowerSrc: "/images/maps/KitchenLower.png",
-        upperSrc: "/images/maps/KitchenUpper.png",
+        lowerSrc: "https://BradleyGonmiah.github.io/TMBG-RPG/images/maps/KitchenLower.png",
+        upperSrc: "https://BradleyGonmiah.github.io/TMBG-RPG/images/maps/KitchenUpper.png",
         gameObjects: {
             hero: new Person({
                 isPlayerControlled: true,
@@ -184,7 +184,7 @@ window.OverworldMaps = {
             npcB: new Person({
                 x: utils.withGrid(10),
                 y: utils.withGrid(8),
-                src:"/images/characters/people/npc3.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/npc3.png",
                 talking: [
                     {
                         events: [
