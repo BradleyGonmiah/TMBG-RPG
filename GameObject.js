@@ -7,7 +7,7 @@ class GameObject {
         this.direction = config.direction || "down";
         this.sprite = new Sprite({
             gameObject: this,
-            src: config.src || "https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/hero.png",
+            src: config.src || "https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/tsion.png",
         });
 
         this.behaviorLoop = config.behaviorLoop || [];

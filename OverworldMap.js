@@ -105,12 +105,12 @@ window.OverworldMaps = {
                 isPlayerControlled: true,
                 x: utils.withGrid(5),
                 y: utils.withGrid(6),
-                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/bradley.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/tsion.png",
             }),
             npcA: new Person({
                 x: utils.withGrid(7),
                 y: utils.withGrid(9),
-                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/tsion.png",
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/bradley.png",
                 behaviorLoop: [
                     { type: "stand", direction: "left", time: 800 },
                     { type: "stand", direction: "up", time: 800 },
@@ -180,6 +180,7 @@ window.OverworldMaps = {
                 isPlayerControlled: true,
                 x: utils.withGrid(5),
                 y: utils.withGrid(5),
+                src:"https://BradleyGonmiah.github.io/TMBG-RPG/images/characters/people/bradley.png",
             }),
             npcB: new Person({
                 x: utils.withGrid(10),
