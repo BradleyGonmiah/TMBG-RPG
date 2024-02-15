@@ -121,7 +121,7 @@ window.OverworldMaps = {
                     {
                         events: [
                             { type: "textMessage", text: "Hey I'm Bradley. What's your name?", faceHero: "npcA"},
-                            { type: "textMessage", text: "Uhh ... ok"},
+                            { type: "textMessage", text: "Silly me, how could I forget! It's great to see you, Tsion!"},
                             { who: "hero", type: "walk", direction: "left" },
                         ]
                     }
